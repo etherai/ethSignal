@@ -56,7 +56,7 @@ contract EthSignal {
             p.votedYes[msg.sender] = true; 
             
         } else{ 
-            p.votedNo[msg.sender] = false; 
+            p.votedNo[msg.sender] = true; 
             
         }
         

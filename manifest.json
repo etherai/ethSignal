@@ -7,8 +7,11 @@
   "icons": { "16": "ether16.png",
            "48": "ether48.png",
           "128": "ether128.png" },
-  "browser_action": {
-    "default_popup": "action.html"
+  "app": {
+    "launch": {
+      "local_path": "etherSignal.html",
+      "container": "panel"
+    }
   },
   "permissions": [
     "storage",
